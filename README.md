@@ -18,7 +18,7 @@
 
 First clone the repository from Github and switch to the new directory:
 
-    $ git clone https://github.com/dev2404/Job-Portal.git
+    $ git clone https://github.com/dev2404/Django-Blog-App.git
     $ cd into the repository
     
 Activate the virtualenv for your project.
