@@ -8,6 +8,9 @@
 * User can Post
 * can delete a post
 
+#
+![Screenshot from 2021-04-18 21-09-18](https://user-images.githubusercontent.com/65526550/115151478-accd5180-a08a-11eb-9209-56fd12f25bc0.png)
+
 ## Technologies Used
 * Python - Django
 * crispy_forms
