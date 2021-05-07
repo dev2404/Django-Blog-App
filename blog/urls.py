@@ -10,4 +10,6 @@ urlpatterns = [
     path('post/new/', PostCreateView.as_view(), name="post-create"),
     path('post/<int:pk>/update/', PostUpdateView.as_view(), name="post-update"),
     path('about/', views.about, name="blog-about"),
+    path('hate/', views.hate, name="blog-hate"),
+
 ]

@@ -12,6 +12,8 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 from pathlib import Path
 from dotenv import load_dotenv
 import os
+from django.contrib.messages import constants as messages
+
 
 load_dotenv()
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -134,4 +136,7 @@ LOGIN_REDIRECT_URL = 'blog-home'
 
 LOGIN_URL = "login"
 
+MESSAGE_TAGS = {
+    messages.ERROR: 'danger'
+}
 

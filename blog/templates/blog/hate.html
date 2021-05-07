@@ -1,0 +1,6 @@
+{% extends "blog/base.html" %} {% block content %}
+
+<h2>Hate Speech</h2>
+<p>Your Speech is Hate Full. We Recommend To Change It.</p>
+<a href="{% url 'post-update' request.user.id %}">update</a>
+{% endblock content %}
